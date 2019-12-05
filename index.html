@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+      <head>
+          <meta charset="utf-8">
+          <title>Reg FORM</title>
+      </head>
+      <body>
+              <form>
+                  <fieldset>
+                            <legend><u>Сторінка реєстрації учасника</u></legend>
+
+                      <p><b>Будь-ласка, заповніть форму:</b><br>
+                        <input type="text" size="40" required placeholder="Your Surname\Ваша фамілія"><br><br>
+                        <input type="text" size="40" required placeholder="Your Name\Ваше ім'я"><br><br>
+                        <input type="text" size="40" minlength="8" required placeholder="Your LogIn\Ваш логін (не менше 8 символів)"><br><br>
+                        <input type="password" size="40" minlength="8" required placeholder="Your Password\Ваш пароль (не менше 8 символів)"><br><br>
+                        <input type="text" size="40" required placeholder="Your Data of Birth\Дата народження"><br><br>
+                        <input type="text" size="40" required placeholder="Your Adress\Місце фактичного проживання"><br>
+
+                        <p>Введіть контактний номер телефону в форматі 380-xx-xxx-xx-xx, де замість x повинна бути цифра:</p>
+
+                        <p><input type="text" size="40" pattern="(\380-[0-9]{9}|8[0-9]{10})" required placeholder="Your Contacts\Контактний номер телефону" 
+                          ><br></p>
+
+                       <p>Введіть Ваш email у форматі email@example.com:<br> 
+                       <p><input type="email" required placeholder="email@example.com"></p>
+                   
+
+                              <p>Ваші побажання<Br>
+                              <textarea name="comment" cols="40" rows="3"></textarea></p>
+                                  <p><input type="submit" value="Send">
+                                    <input type="reset" value="Reset"></p>
+                  </fieldset>
+              </form>
+
+            
+            
+            
+
+
+        </body>
+</html>
